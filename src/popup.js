@@ -130,8 +130,8 @@ const setTitle = ((items) => {
 
 const setInfo = (data) => {
     const regex = [
-        /.*leetcode.com\/problems\/(.*)\/.*/,
-        /.*leetcode.cn\/problems\/(.*)\/.*/
+        /.*leetcode.com\/problems\/(.*?)\/.*/,
+        /.*leetcode.cn\/problems\/(.*?)\/.*/
     ];
     chrome.tabs.query({currentWindow: true, active: true}, function (tabs) {
         let url = tabs[0].url;
