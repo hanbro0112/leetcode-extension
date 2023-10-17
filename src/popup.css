@@ -1,0 +1,11 @@
+body{
+    width: 220px;
+    min-height: 200px;
+    font-family: sans-serif;
+}
+
+.range {
+    margin:auto;
+    padding: 10px 15px;
+    line-height: 0.5px;
+}

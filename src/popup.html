@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LC - JumpTo Next Problem</title>
+        
+        <link href="./popup.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    </head>
+    <script src="./popup.js"></script>
+    <body>
+        <fieldset class>
+            <br />
+            <div class="container-fluid">
+                <p>Problem rating: <em id="Rating" name="Rating">N/A</em><em id="Problem Index" name="Problem Index"></em></p>
+                <p>Contest: <em id="Contest Slug" name="Contest Slug">N/A</em></p>
+            </div>
+        </fieldset>
+            <div class="range">
+                <p>Set: <em id="range-value" name="range-value">N/A</em></p>
+                <input type="range" id="range-input" name="range-input" value="1800" max="3000" min="1000">
+            </div>
+            <div class="container-fluid">
+                <button class="btn btn-block btn-primary" id="Jump" name="Jump">Jump</button>
+                <button class="btn btn-block btn-danger" id="Next" name="Next" value="">Next</button>
+            </div>
+        
+        <br />
+    </body>
+</html>
